@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirana</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+    
+    <nav class="navbar">
+        <a href="home.html" class="logo"><img src="images/logo.jpg" alt=""></a>
+
+    <ul class="navcenter">
+       <li class="item"><a href="home.html">Home</a></li> 
+        <li class="item"><a href="shop.html">Shop</a></li>
+        <li class="item"><a href="about.html">About</a></li>
+        <li class="item"><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <ul class="navright">
+        <li id="menu-btn" class="fa fa-bars"></li> 
+        <li id="search-btn" class="fa fa-search"></li>
+        <li id="cart-btn" class="fa fa-shopping-cart"></li>
+    </ul>
+</nav>
+<button class="btn">Login/Register</button>
+<form action="" class="searchform">
+    <input type="search" placeholder="Search here..."name="" id="searchbox">
+    <label for="searchbox" class="fa fa-search"></label>
+</form>
+
+<form action="" class="loginform">
+<h2>Login Form</h2>
+<input type="email" placeholder="Enter your Email id" class="loginbox"> <br>
+<input type="password" placeholder="Enter your password" class="loginbox">
+<div class="remember">
+    <input type="checkbox" id="rememberme">
+    <label for="rememberme">Remember me</label>
+</div>
+<input type="submit" value="Login now" class="loginbtn">
+<p>Forget Password? <a href="#">Click Here</a></p>
+<p>Don't have an account? <input type="submit" value="Register" class="registerbtn">
+</form>
+</header>
+
+<section class="home">
+    <div class="container">
+    <div class="content">
+        <div class="images">
+            <img src="images/falbgr.jpg" alt="">
+            <img src="images/kiranabgr.jpg" alt="">
+            <img src="images/kiranabgr1.jpg" alt="">
+        </div>
+        <div onclick="slide(-1)" class="left" ><span class="fa fa-chevron-left" ></span></div> 
+        <div onclick="slide(1)" class="right" ><span class="fa fa-chevron-right" ></span></div> 
+        <div class="sliders">
+            <span onclick="dotslide(1)">O</span>
+            <span onclick="dotslide(2)">O</span>
+            <span onclick="dotslide(3)">O</span>
+        </div>
+    </div>
+</div>
+ <div class="written">
+   <div>Fresh and Organic</div>
+    <div>Upto 30% off</div> 
+    <div>Use coupon:KIRANA30</div>
+    <a href="#" class="shopbtn">Shop now</a>
+</div> 
+</section>
+
+<section class="banner">
+    <div class="heading">Daily essentials</div>
+<div class="product-container">
+    <div class="product">
+    <div>Doodh 1L</div>
+   <img src="images/milk.jpeg" alt="">
+   <div> &#x20B9;44/-</div>
+   <button class="cartbtn">Add to cart</button>
+   </div>
+   <div class="product">
+    <div>Kela 1kg</div>
+    <img src="images/kela.jpg" alt="">
+    <div> &#x20B9;40/-</div>
+    <button class="cartbtn">Add to cart</button>
+   </div>
+    <div class="product">
+    <div>Bread 1pkt</div>
+    <img src="images/bread.jpg" alt="">
+    <div> &#x20B9;30/-</div>
+    <button class="cartbtn">Add to cart</button>
+    </div>
+    <div class="product">
+    <div>Ande 1pc</div>
+    <img src="images/eggs.jpg" alt="">
+   <div> &#x20B9;5/-</div>
+   <button class="cartbtn">Add to cart</button>
+    </div>
+</div>
+
+    <div class="heading1">Shop by Category</div>
+    <div class="product-container">
+        <div class="product1">
+            <div>सब्जी</div>
+            <a href="shop.html"><img src="images/sabji.jpg" alt=""></a>
+           </div>
+           <div class="product1">
+            <div>फल</div>
+            <a href="shop.html"><img src="images/fruits.jpg" alt=""></a>
+           </div>
+            <div class="product1">
+            <div>अनाज और तेल</div>
+            <a href="shop.html"><img src="images/anaajtel.jpg" alt=""></a>
+            </div>
+            <div class="product1">
+            <div>नाश्ता</div>
+            <a href="shop.html"><img src="images/naashta.jpg" alt=""></a>
+           </div>
+  </div>
+
+</section>
+
+<!-- footer section -->
+<section class="footer">
+    <div class="boxcontainer">
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="home.html"><i class="fa fa-arrow-right"></i>Home</a><br>
+            <a href="shop.html"><i class="fa fa-arrow-right"></i>Shop</a><br>
+            <a href="about.html"><i class="fa fa-arrow-right"></i>About</a><br>
+            <a href="contact.html"><i class="fa fa-arrow-right"></i>Contact</a><br>
+        </div>
+        <div class="box">
+            <h3>Extra links</h3>
+            <a href="#"><i class="fa fa-arrow-right"></i>My Order</a> <br>
+            <a href="#"><i class="fa fa-arrow-right"></i>My Cart </a> <br>
+            <a href="#"><i class="fa fa-arrow-right"></i>My Wishlist</a> <br>
+            <a href="#"><i class="fa fa-arrow-right"></i>My Account</a><br>
+            <a href="#"><i class="fa fa-arrow-right"></i>Terms or Use</a><br>
+        </div>
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="#"><i class="fa fa-facebook"></i>Facebook</a> <br>
+            <a href="#"><i class="fa fa-twitter"></i>Twitter</a> <br>
+            <a href="#"><i class="fa fa-instagram"></i>Instagram</a> <br>
+            <a href="#"><i class="fa fa-linkedin"></i>Linked-in</a><br>
+            <a href="#"><i class="fa fa-youtube"></i>Youtube</a><br>
+        </div>
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>subscribe for latest updates</p>
+        <form action="">
+            <input type="email" placeholder="Enter your email" class="subscribe">
+            <input type="submit" value="subscribe" class="subscribe">
+        </form>
+       <img src="images/payment.png" class="paymentimg" alt="">
+        </div>
+    </div>
+</section>
+<section class="credit">Design and developed by XYZ developers | All rights reserved&copy;</section>
+
+<script src="index.js"></script>
+</body>  
+</html>
+
+
+
+
+
+
